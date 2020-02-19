@@ -3,5 +3,7 @@ function boardMember(name, homeState, training) {
   this.homeState = homeState
   this.training = training
   
-  boardMember.prototype.veto
+  boardMember.prototype.veto = function() {
+    return 
+  }
 }
