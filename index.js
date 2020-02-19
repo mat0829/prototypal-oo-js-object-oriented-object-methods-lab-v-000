@@ -14,4 +14,6 @@ function BoardMember(name, homeState, training) {
   BoardMember.prototype.doCharity = function() {
     return "I like to help people."
   }
+  
+  
 }
