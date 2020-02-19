@@ -15,5 +15,7 @@ function BoardMember(name, homeState, training) {
     return "I like to help people."
   }
   
-  
+  BoardMember.prototype.releasePressStatement = function() {
+    return "I like to help people."
+  }
 }
