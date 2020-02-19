@@ -16,6 +16,6 @@ function BoardMember(name, homeState, training) {
   }
   
   BoardMember.prototype.releasePressStatement = function() {
-    return `You will see great things from ${this.name}.`
+    return `You will see great things from Scuber.`
   }
 }
